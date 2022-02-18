@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="true"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="#989797">
+
+        <ImageView
+            android:id="@+id/image_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="30dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tv_FirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:text="FirstName"/>
+
+        <TextView
+            android:id="@+id/tv_LastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:text="LastName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="21726123"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>
